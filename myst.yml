@@ -1,0 +1,20 @@
+version: 1
+project:
+  title: Giller Prize Data Notebooks
+  toc:
+    - file: index.md
+    - title: Notebooks
+      children:
+        - file: pandas_intro.ipynb
+        - file: pandas.ipynb
+        - file: pandas_ages.ipynb
+        - file: astrology.ipynb
+        - file: W07_notes.ipynb
+        - file: W07_notes_big_cities.ipynb
+        - file: W07_lecture.ipynb
+site:
+  template: book-theme
+  title: Giller Prize Data Notebooks
+  options:
+    logo_text: Giller Prize Data
+    folders: true
